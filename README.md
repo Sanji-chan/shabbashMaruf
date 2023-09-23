@@ -36,3 +36,10 @@ This was a group project, developed using python OPEN GL library, and was made a
 1. Mid-point line drawing algorithm (sun fill)
 1. Mid-point circle drawing algorithm (sun border)
 1. OpenGL Library defined shapes used: Quads, Triangle, Lines, Points 
+
+
+
+### Contributers
+1. [Sanji-chan](https://github.com/Sanji-chan) [background, score board, coin management (generation, catch, score update)]
+1. [namiallstars](https://github.com/namiallstars) [character design and movement] 
+1. Khandaker Maisha Tanzim [sun]
