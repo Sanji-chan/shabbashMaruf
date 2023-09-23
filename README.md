@@ -5,6 +5,8 @@ Shabbash Maruf is a 2D platformer game, inspired by the Game "Mario Go!" where t
 
 This was a group project, developed using python OPEN GL library, and was made as a requriement for the completion of the course CSE423 [Computer Graphics].
 
+#### Note: The dist folder contains an executable version of the game.
+
 <img src="./assets/img/game_img.png" alt="game_img" style="height: 430px; width:700px;"/>
 
 ### Requirements
