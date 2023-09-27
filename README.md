@@ -3,7 +3,7 @@
 ### Description
 Shabbash Maruf is a 2D platformer game, inspired by the Game "Mario Go!" where the player moves a character named Maruf across a fixed environment, with the objective of getting it to collect coins. 
 
-This was a group project, developed using python OPEN GL library, and was made as a requriement for the completion of the course CSE423 [Computer Graphics].
+This was a group project, developed using the Python OPEN GL library, and was made as a requirement for the completion of the course CSE423 [Computer Graphics].
 
 #### Note: The dist folder contains an executable version of the game.
 
@@ -19,16 +19,16 @@ This was a group project, developed using python OPEN GL library, and was made a
 ### Components:
 1. Background: The sky and the ground have been made using OpenGL quad shapes, two mountains have been generated with OpenGL triangles, and the sun has been drawn in the top right corner using the midpoint circle algorithm and filled in using the midpoint line drawing algorithm.
 
-1. Character (Maruf): This has been made using multiple OpenGL quad shapes. Its coordinates are added with a translation matrix to show movement on the x and y plane. 
+1. Character (Maruf): This has been made using multiple OpenGL quad shapes. Its coordinates are added with a translation matrix to show movement on the x and y planes. 
 
 1. Name display and score counter:  All displayed text has been written using OpenGL lines and/or OpenGL points. 
 
-1. Random Coin management: It is made using simple logic, Random function, and OpenGL points (as project requirement specified to not use more than one circle).
+1. Random Coin management: It is made using simple logic, Random function, and OpenGL points (as the project requirement specified to not use more than one circle).
 
 ### User inputs:
 1. Text input: Before the game is launched, the user is prompted to enter their name in the text box.
 <br> Once the name has been inputted, it displays the first 5 characters just above the score, as shown in the image above. 
-<br>Additionally, to move Maruf across the screen, the player uses Left and Right arrow keys which allows horizontal movement. It has been implemented using the glutSpecialFunc function in the OpenGL.GLUT library.  
+<br>Additionally, to move Maruf across the screen, the player uses the Left and Right arrow keys which allow horizontal movement. It has been implemented using the glutSpecialFunc function in the OpenGL.GLUT library.  
 
 
 2. Spacebar: helps to jump up so that Maruf can collect coins that are higher up on the screen. This has been done with the glutKeyboardFunc() and glutKeyboardUpFunc() functions in the OpenGL.GLUT library.
@@ -41,7 +41,7 @@ This was a group project, developed using python OPEN GL library, and was made a
 
 
 
-### Contributers
-1. [Sanji-chan](https://github.com/Sanji-chan) [background, score board, coin management (generation, catch, score update)]
+### Contributors
+1. [Sanji-chan](https://github.com/Sanji-chan) [background, scoreboard, coin management (generation, catch, score update)]
 1. [namiallstars](https://github.com/namiallstars) [character design and movement] 
-1. Khandaker Maisha Tanzim [sun]
+1. [MaishaTanzim](https://github.com/MaishaTanzim) [sun]
